@@ -1,0 +1,55 @@
+.hotdeal{
+    display: flex;
+    place-content: space-around;
+    flex-wrap:wrap;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 30px;
+    margin: 15px 0px 15px 0px ;
+    background-color: rgba(128, 128, 128, 0.233);
+}
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 8px;
+}
+.deal{
+    border-radius: 40%;
+    text-align: center;
+    line-height: 18px;
+    font-weight: 700;
+      padding: 30px;
+    border:2px solid white;
+    color: white;
+    background-color: rgba(219, 8, 8, 0.87);
+    max-width:100px;
+    height: 100px;
+    
+    
+}
+.deal_img{
+    display: block;
+  max-width: 300px;
+}
+.shop_btn{
+    border: 2px solid white;
+    border-radius: 20%;
+    max-width:200px ;
+    font-weight: 600;
+    height: 60px;
+    background-color: rgba(219, 8, 8, 0.87);
+    color: white;
+    padding: 10px;
+
+}
+.shop_btn:hover{
+       background-color: rgba(0, 0, 0, 0.253);
+       color: black;
+      
+}
+@media (max-width:450){
+    .deal_img{
+        display: none;
+    }
+}
